@@ -4,7 +4,12 @@ import { styles } from "./styles";
 export function Home() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}></Text>
+            <View style={styles.headerContainer}>
+                <Text style={styles.title}>Lista de Tarefas</Text>
+                <Text style={styles.subTitle}>
+                    Adicione suas atividades a lista de tarefas
+                </Text>
+            </View>
         </View>
     );
 }
