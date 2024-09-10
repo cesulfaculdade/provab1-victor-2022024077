@@ -1,6 +1,7 @@
 import { Text, View } from "react-native";
 import { styles } from "./styles";
 import { InputText } from "../../components/InputText";
+import { EmptyList } from "../../components/EmptyList";
 
 export function Home() {
     return (
@@ -12,6 +13,8 @@ export function Home() {
                 </Text>
             </View>
             <InputText />
+            <Text style={styles.textTitle}>Tarefas Pendentes</Text>
+            <EmptyList />
         </View>
     );
 }

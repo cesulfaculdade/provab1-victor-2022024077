@@ -3,7 +3,7 @@ import { styles } from "./styles";
 import { useState } from "react";
 
 export function InputText() {
-    const jose = useState();
+    const [string] = useState();
     const handleAddTarefa = () => {};
 
     return (

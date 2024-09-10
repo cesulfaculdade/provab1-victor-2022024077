@@ -24,4 +24,12 @@ export const styles = StyleSheet.create({
         color: "#F2F2F2",
         fontStyle: "normal",
     },
+    textTitle: {
+        paddingTop: 34,
+        fontSize: 20,
+        color: "#F2F2F2",
+        fontStyle: "normal",
+        fontWeight: "700",
+        lineHeight: 24,
+    },
 });
