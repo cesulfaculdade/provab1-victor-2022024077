@@ -1,26 +1,18 @@
 import { StyleSheet } from "react-native";
-import { InputText } from ".";
 
 export const styles = StyleSheet.create({
-    handleInput: {
+    container: {
         maxWidth: 345,
-        height: 51,
-        backgroundColor: "#EAEAEA",
-        borderRadius: 5,
+        height: 44,
         flexDirection: "row",
+        backgroundColor: "#FFFFFF",
         justifyContent: "space-between",
+        borderRadius: 5,
     },
-    inputText: {
-        padding: 16,
-        color: "#808080",
-        fontSize: 16,
-        fontWeight: "400",
-        fontStyle: "normal",
-    },
-    btnAdd: {
-        backgroundColor: "#31C667",
-        width: 51,
-        height: 51,
+    btnRemove: {
+        backgroundColor: "#E23C44",
+        width: 44,
+        height: 44,
         borderTopRightRadius: 5,
         borderBottomRightRadius: 5,
         alignItems: "center",
@@ -29,5 +21,9 @@ export const styles = StyleSheet.create({
     iconBtn: {
         color: "#FFFFFF",
         fontSize: 24,
+    },
+    text: {
+        fontSize: 16,
+        padding: 12,
     },
 });

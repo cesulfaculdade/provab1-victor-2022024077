@@ -4,7 +4,9 @@ import { useState } from "react";
 
 export function InputText() {
     const [string] = useState();
-    const handleAddTarefa = () => {};
+    const handleAddTarefa = () => {
+        console.log("Tarefa adicionada!");
+    };
 
     return (
         <View style={styles.handleInput}>
