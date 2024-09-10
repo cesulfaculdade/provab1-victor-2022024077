@@ -1,5 +1,6 @@
 import { Text, View } from "react-native";
 import { styles } from "./styles";
+import { InputText } from "../../components/InputText";
 
 export function Home() {
     return (
@@ -10,6 +11,7 @@ export function Home() {
                     Adicione suas atividades a lista de tarefas
                 </Text>
             </View>
+            <InputText />
         </View>
     );
 }
